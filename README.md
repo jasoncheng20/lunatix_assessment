@@ -1,13 +1,14 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+After cloning this project
 
 In the project directory, you can run:
 
-### `yarn start`
+### `docker pull jasoncheng20/lunatixassessment`
+to pull the file from
+
+And then run:
+### `docker run -it --publish 8000:3000 --detach lunatixassessment:1.0`
 
 Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
-
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+Open [http://localhost:8000](http://localhost:8000) to view it in the browser.
